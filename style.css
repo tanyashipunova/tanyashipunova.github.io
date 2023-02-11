@@ -1,16 +1,28 @@
+body {
+    background-color: #d7d7d7;
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
-    background-color: #d1d1d1;
+    background-color: #999b99;
     text-align: center;
 }
 
+.center {
+    width: 1300px;
+    margin: 0 auto;
+}
+
 .header a {
-    font-size: 35px;
+    color: #373737;
+    font-size: 32px;
     font-weight: 100;
     padding: 50px;
 }
 
 h1 {
     font-size: 32px;
+    color: #32453b;
     text-align: center;
 }
 
@@ -36,4 +48,8 @@ ul {
 .footer {
     background-color: #d1d1d1;
     text-align: center;
+    color: #484848;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 50px;
 }
